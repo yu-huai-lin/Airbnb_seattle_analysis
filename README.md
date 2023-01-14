@@ -3,6 +3,8 @@
 
 ![](/images/airbnb2.png)
 
+Medium Blog Link: https://medium.com/@yuhuailin0323/insights-behind-the-airbnb-customer-reviews-sentiment-analysis-with-vader-and-nlp-in-python-45aba7b60367
+
 ## Motivation
 
 Traveller's reviews and comments on a accomodation platform like Airbnb can often be a very good source of truth that come from the actual customers experiences and they affect our decisions on which B&B and neighbourhood to stay.  We are gonna utilize the review data to do text and sentiment analysis and uncover insights in the 80000+reveiws in the Airbnb Seattle Data sets. 
