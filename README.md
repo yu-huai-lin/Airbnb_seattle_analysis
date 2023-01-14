@@ -23,12 +23,12 @@ The analysis is done using explorative data analysis and unsupervised sentiment 
 For non-technical reader, please also read the findings in this medium blog: https://medium.com/@yuhuailin0323/insights-behind-the-airbnb-customer-reviews-sentiment-analysis-with-vader-and-nlp-in-python-45aba7b60367
 
 ### Requirement
-numpy               1.21.4
-pandas              1.3.2
-nltk                3.8.1
-vaderSentiment      3.3.2
-plotly              5.2.1
-wordcloud           1.8.2.2
+- numpy               1.21.4
+- pandas              1.3.2
+- nltk                3.8.1
+- vaderSentiment      3.3.2
+- plotly              5.2.1
+- wordcloud           1.8.2.2
 
 
 ## Data
@@ -93,17 +93,14 @@ If we now include the factors of the number of reviews into the chart, the numbe
 If we plot the box plot for the positive sentiment score based on different price bins (a discrete feature I created based on the range of actual prices), we can see that, the mean of the sentiment score increases as price range goes up. This means that people were happier about the B&B they stayed when the prices were higher.
 
 Lets' plot the price and the positive sentiment score on a scatter chart, with color distinction on whether the host is a super host:
-![](/images/price_scatter.png)
-The relationship between price and sentiment score seems to be more or less random and has a lot of noises.
 
 ![](/images/price_scatter_3.png)
+The relationship between price and sentiment score seems to be more or less random and has a lot of noises.
 
 Let's look at a feature called Host Response time in the data and its corresponding positive sentiment score distribution:
 ![](/images/host_response_time.png)
-It seems like one of the key that affect customers' happiness is to keep the response time within one day :).
-![](/images/host_response_rate.png)
+It seems like one of the key that affect customers' happiness is to keep the response time within one day :)
 
-![](/images/host_is_super_host.png)
 
 #### Neighbourhood and Is_super_host
 We can see that if the host has a super host badge, they seem to have a higher share of the positive comments across different neighbourhoods:
