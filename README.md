@@ -113,9 +113,10 @@ We can see that if the host has a super host badge, they seem to have a higher s
 Before answering this question, we will need to clean up the text data. This process includes tokenization (split the text into words), removing the punctuation and stop words, lemmatization (transform every word into their root form), and lastly, part-of-speech tagging ( the process of identifying the words as verbs, nouns, adjectives etc).
 
 Based on the text analysis and categorization, top words to describe the vibes are extracted for the top 5 neighbourhoods in Seattle:
-
+Capital Hill:
 ![](/images/capital_hill_wc.png)
 
+Minor:
 ![](/images/minor_wc.png)
 
 
