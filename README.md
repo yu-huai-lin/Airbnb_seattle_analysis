@@ -1,5 +1,6 @@
 
-#  Sentiment Analysis and NLP in Python with Airbnb Seatle Open Data - Udacity Data Science Nano Degree Project
+#  Sentiment Analysis and NLP in Python with Airbnb Seatle Open Data
+
 ![](/images/airbnb2.png)
 
 ## Motivation
